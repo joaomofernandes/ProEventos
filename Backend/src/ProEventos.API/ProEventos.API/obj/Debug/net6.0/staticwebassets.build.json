@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "7YiGOjk6fZjOk4kQxmx9NcMvRUg3dv706vX60+rOydY=",
-  "Source": "ProEventos.API",
-  "BasePath": "_content/ProEventos.API",
+  "Hash": "HHWtu4kvGMY69xUsPhS8bblvmEsWCad361iZE+PHNTI=",
+  "Source": "CarShowroom.API",
+  "BasePath": "_content/CarShowroom.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

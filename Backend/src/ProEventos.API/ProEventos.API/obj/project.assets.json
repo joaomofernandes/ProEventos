@@ -3729,9 +3729,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MyRepos\\ProEventos\\Backend\\src\\ProEventos.API\\ProEventos.API\\ProEventos.API.csproj",
-      "projectName": "ProEventos.API",
-      "projectPath": "C:\\MyRepos\\ProEventos\\Backend\\src\\ProEventos.API\\ProEventos.API\\ProEventos.API.csproj",
+      "projectUniqueName": "C:\\MyRepos\\ProEventos\\Backend\\src\\ProEventos.API\\ProEventos.API\\CarShowroom.API.csproj",
+      "projectName": "CarShowroom.API",
+      "projectPath": "C:\\MyRepos\\ProEventos\\Backend\\src\\ProEventos.API\\ProEventos.API\\CarShowroom.API.csproj",
       "packagesPath": "C:\\Users\\joaomiol\\.nuget\\packages\\",
       "outputPath": "C:\\MyRepos\\ProEventos\\Backend\\src\\ProEventos.API\\ProEventos.API\\obj\\",
       "projectStyle": "PackageReference",

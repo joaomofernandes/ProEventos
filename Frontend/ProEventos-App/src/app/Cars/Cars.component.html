@@ -1,0 +1,39 @@
+<h2>Events</h2>
+<hr>
+
+<form action="" class="form-inline d-inline">
+    <div class="form-group mb-2 d-inline">
+        <input type="text" class="form-control mb-2 d-inline" placeholder="Search">
+        <button class="btn btn-outline-success d-inline">Search</button>
+    </div>
+</form>
+<table class="table table-striped">
+    <thead class="thead-dark">
+        <tr>
+            <th>#</th>
+            <th>Manufacturer</th>
+            <th>Model</th>
+            <th>Month/Year</th>
+            <th>Color</th>
+            <th>Type</th>
+            <th>Fuel</th>
+            <th>KMS</th>
+            <th>Image</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let car of cars">
+            <td>{{car.carId}}</td>
+            <td>{{car.manufacturer}}</td>
+            <td>{{car.model}}</td>
+            <td>{{car.month_Year}}</td>
+            <td>{{car.color}}</td>
+            <td>{{car.type}}</td>
+            <td>{{car.fuel}}</td>
+            <td>{{car.kms}}</td>
+            <td>{{car.imageUrl}}</td>
+        </tr>
+    </tbody>
+</table>
+
+

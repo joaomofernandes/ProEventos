@@ -21,15 +21,19 @@ namespace ProEventos.API.Data.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("ProEventos.API.Models.Event", b =>
+            modelBuilder.Entity("ProEventos.API.Models.Car", b =>
                 {
-                    b.Property<int>("EventId")
+                    b.Property<int>("CarId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("EventId"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CarId"));
 
-                    b.Property<string>("Date")
+                    b.Property<string>("Color")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Fuel")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -37,24 +41,28 @@ namespace ProEventos.API.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Lot")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("PeopleCount")
+                    b.Property<int>("Kms")
                         .HasColumnType("int");
 
-                    b.Property<string>("Place")
+                    b.Property<string>("Manufacturer")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Theme")
+                    b.Property<string>("Model")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("EventId");
+                    b.Property<string>("Month_Year")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
-                    b.ToTable("Events");
+                    b.Property<string>("Type")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("CarId");
+
+                    b.ToTable("Cars");
                 });
 #pragma warning restore 612, 618
         }

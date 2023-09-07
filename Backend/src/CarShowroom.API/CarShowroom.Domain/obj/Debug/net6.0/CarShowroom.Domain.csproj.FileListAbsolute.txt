@@ -1,0 +1,12 @@
+C:\MyRepos\CarShowroom-App\Backend\src\CarShowroom.API\CarShowroom.Domain\bin\Debug\net6.0\CarShowroom.Domain.deps.json
+C:\MyRepos\CarShowroom-App\Backend\src\CarShowroom.API\CarShowroom.Domain\bin\Debug\net6.0\CarShowroom.Domain.dll
+C:\MyRepos\CarShowroom-App\Backend\src\CarShowroom.API\CarShowroom.Domain\bin\Debug\net6.0\CarShowroom.Domain.pdb
+C:\MyRepos\CarShowroom-App\Backend\src\CarShowroom.API\CarShowroom.Domain\obj\Debug\net6.0\CarShowroom.Domain.csproj.AssemblyReference.cache
+C:\MyRepos\CarShowroom-App\Backend\src\CarShowroom.API\CarShowroom.Domain\obj\Debug\net6.0\CarShowroom.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyRepos\CarShowroom-App\Backend\src\CarShowroom.API\CarShowroom.Domain\obj\Debug\net6.0\CarShowroom.Domain.AssemblyInfoInputs.cache
+C:\MyRepos\CarShowroom-App\Backend\src\CarShowroom.API\CarShowroom.Domain\obj\Debug\net6.0\CarShowroom.Domain.AssemblyInfo.cs
+C:\MyRepos\CarShowroom-App\Backend\src\CarShowroom.API\CarShowroom.Domain\obj\Debug\net6.0\CarShowroom.Domain.csproj.CoreCompileInputs.cache
+C:\MyRepos\CarShowroom-App\Backend\src\CarShowroom.API\CarShowroom.Domain\obj\Debug\net6.0\CarShowroom.Domain.dll
+C:\MyRepos\CarShowroom-App\Backend\src\CarShowroom.API\CarShowroom.Domain\obj\Debug\net6.0\refint\CarShowroom.Domain.dll
+C:\MyRepos\CarShowroom-App\Backend\src\CarShowroom.API\CarShowroom.Domain\obj\Debug\net6.0\CarShowroom.Domain.pdb
+C:\MyRepos\CarShowroom-App\Backend\src\CarShowroom.API\CarShowroom.Domain\obj\Debug\net6.0\ref\CarShowroom.Domain.dll

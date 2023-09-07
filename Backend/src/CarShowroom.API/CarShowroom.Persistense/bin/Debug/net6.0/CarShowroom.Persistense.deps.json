@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CarShowroom.Persistense/1.0.0": {
+        "dependencies": {
+          "CarShowroom.Domain": "1.0.0"
+        },
+        "runtime": {
+          "CarShowroom.Persistense.dll": {}
+        }
+      },
+      "CarShowroom.Domain/1.0.0": {
+        "runtime": {
+          "CarShowroom.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CarShowroom.Persistense/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CarShowroom.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

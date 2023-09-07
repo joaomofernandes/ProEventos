@@ -1,21 +1,20 @@
-<h2>Events</h2>
+<h2>CarShowroom</h2>
 <hr>
 
 <div class="form-inline d-inline">
     <div class="d-flex justify-content-center">
+        <Strong>Filter Cars:</Strong>
         <input 
         type="text" 
         class="form-control mb-2 d-inline" 
         placeholder="Search"
         [(ngModel)]="filterList">
-        <button (click)="showKeyword()"class="btn btn-outline-success d-inline">Search</button>
     </div>
 </div>
-<h3 *ngIf="!_showkeyword">Searching for: {{filterList}}</h3>
+//<h3 *ngIf="!_showkeyword">Searching for: {{filterList}}</h3>
 <table class="table table-striped">
     <thead class="table-primary">
         <tr>
-            <th>#</th>
             <th>Manufacturer</th>
             <th>Model</th>
             <th>Month/Year</th>
@@ -28,11 +27,11 @@
                     {{showImg ? 'Hide Image' : 'Show Image'}}
                 </a>
             </th>
+            <th>Options</th>
         </tr>
     </thead>
     <tbody *ngIf="cars && cars.length">
-        <tr *ngFor="let car of cars">
-            <td>{{car.carId}}</td>
+        <tr *ngFor="let car of filteredCars">
             <td>{{car.manufacturer}}</td>
             <td>{{car.model}}</td>
             <td>{{car.month_Year}}</td>
@@ -47,6 +46,10 @@
                 [style.width.px]="75"
                 [style.margin.px]="2"
                 alt="">
+            </td>
+            <td>
+                <button type="button" class="btn btn-primary btn-sm" style="margin: 10px">Edit Details</button>
+                <button type="button" class="btn btn-danger btn-sm">Exclude Car</button>
             </td>
         </tr>
     </tbody>

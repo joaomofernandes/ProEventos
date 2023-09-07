@@ -1242,6 +1242,30 @@
             "rid": "win"
           }
         }
+      },
+      "CarShowroom.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "C:\\MyRepos\\CarShowroom-App\\Backend\\src\\CarShowroom.API\\CarShowroom.Persistence\\CarShowroom.Persistence.csproj": "1.0.0",
+          "CarShowroom.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CarShowroom.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CarShowroom.Application.dll": {}
+        }
+      },
+      "CarShowroom.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CarShowroom.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CarShowroom.Domain.dll": {}
+        }
       }
     }
   },
@@ -3712,10 +3736,21 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "CarShowroom.Application/1.0.0": {
+      "type": "project",
+      "path": "../CarShowroom.Application/CarShowroom.Application.csproj",
+      "msbuildProject": "../CarShowroom.Application/CarShowroom.Application.csproj"
+    },
+    "CarShowroom.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CarShowroom.Domain/CarShowroom.Domain.csproj",
+      "msbuildProject": "../CarShowroom.Domain/CarShowroom.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "CarShowroom.Application >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.10",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.10",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.10",
@@ -3749,7 +3784,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\MyRepos\\CarShowroom-App\\Backend\\src\\CarShowroom.API\\CarShowroom.Application\\CarShowroom.Application.csproj": {
+              "projectPath": "C:\\MyRepos\\CarShowroom-App\\Backend\\src\\CarShowroom.API\\CarShowroom.Application\\CarShowroom.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -3809,5 +3848,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\MyRepos\\CarShowroom-App\\Backend\\src\\CarShowroom.API\\CarShowroom.Persistence\\CarShowroom.Persistence.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\MyRepos\\CarShowroom-App\\Backend\\src\\CarShowroom.API\\CarShowroom.Persistence\\CarShowroom.Persistence.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

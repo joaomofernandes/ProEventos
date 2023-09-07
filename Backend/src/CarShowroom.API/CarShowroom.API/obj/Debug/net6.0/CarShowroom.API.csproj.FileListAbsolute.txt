@@ -172,3 +172,7 @@ C:\MyRepos\CarShowroom-App\Backend\src\CarShowroom.API\CarShowroom.API\obj\Debug
 C:\MyRepos\CarShowroom-App\Backend\src\CarShowroom.API\CarShowroom.API\obj\Debug\net6.0\CarShowroom.API.pdb
 C:\MyRepos\CarShowroom-App\Backend\src\CarShowroom.API\CarShowroom.API\obj\Debug\net6.0\CarShowroom.API.genruntimeconfig.cache
 C:\MyRepos\CarShowroom-App\Backend\src\CarShowroom.API\CarShowroom.API\obj\Debug\net6.0\ref\CarShowroom.API.dll
+C:\MyRepos\CarShowroom-App\Backend\src\CarShowroom.API\CarShowroom.API\bin\Debug\net6.0\CarShowroom.Application.dll
+C:\MyRepos\CarShowroom-App\Backend\src\CarShowroom.API\CarShowroom.API\bin\Debug\net6.0\CarShowroom.Domain.dll
+C:\MyRepos\CarShowroom-App\Backend\src\CarShowroom.API\CarShowroom.API\bin\Debug\net6.0\CarShowroom.Application.pdb
+C:\MyRepos\CarShowroom-App\Backend\src\CarShowroom.API\CarShowroom.API\bin\Debug\net6.0\CarShowroom.Domain.pdb

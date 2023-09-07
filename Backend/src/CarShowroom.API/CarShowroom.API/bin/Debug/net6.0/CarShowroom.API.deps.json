@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "CarShowroom.API/1.0.0": {
         "dependencies": {
+          "CarShowroom.Application": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.10",
           "Microsoft.EntityFrameworkCore.Design": "7.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.10",
@@ -747,6 +748,19 @@
             "fileVersion": "5.0.20.51904"
           }
         }
+      },
+      "CarShowroom.Application/1.0.0": {
+        "dependencies": {
+          "CarShowroom.Domain": "1.0.0"
+        },
+        "runtime": {
+          "CarShowroom.Application.dll": {}
+        }
+      },
+      "CarShowroom.Domain/1.0.0": {
+        "runtime": {
+          "CarShowroom.Domain.dll": {}
+        }
       }
     }
   },
@@ -1273,6 +1287,16 @@
       "sha512": "sha512-c1ho9WU9ZxMZawML+ssPKZfdnrg/OjR3pe0m9v8230z3acqphwvPJqzAkH54xRYm5ntZHGG1EPP3sux9H3qSPg==",
       "path": "system.windows.extensions/5.0.0",
       "hashPath": "system.windows.extensions.5.0.0.nupkg.sha512"
+    },
+    "CarShowroom.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CarShowroom.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

@@ -12,7 +12,17 @@ export class CarsComponent implements OnInit {
 
   showImg: boolean = true;
   _showkeyword: boolean = true;
-  filterList: string = '';
+  private _filterList: string = '';
+  public filteredCars: any = [];
+
+  public get filterList() : string{
+    return this._filterList;
+  }
+
+  public set filterList(value: string){
+    this._filterList = value;
+    this.filteredCars = this.filterList ? this.filterCars(this.filterList) : this.cars;
+  }
 
   constructor(private http: HttpClient) { }
 
@@ -22,7 +32,10 @@ export class CarsComponent implements OnInit {
 
   public getCars() : void {
     this.http.get('https://localhost:7258/api/Car').subscribe(
-      response => this.cars = response,
+      response => {
+        this.cars = response;
+        this.filteredCars = this.cars;
+      },
       error => console.log(error)
     );
   }
@@ -32,6 +45,14 @@ export class CarsComponent implements OnInit {
   }
   showKeyword(){
     this._showkeyword = !this._showkeyword;
+  }
+
+  filterCars(filterBy: string): any{
+    filterBy = filterBy.toLowerCase();
+    return this.cars.filter (        
+        (car: { manufacturer: string; model: string})  => car.manufacturer.toLowerCase().indexOf(filterBy) !== -1 ||
+        car.model.toLowerCase().indexOf(filterBy) !== -1
+    )   
   }
 
 }

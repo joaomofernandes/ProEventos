@@ -1,0 +1,15 @@
+C:\MyRepos\CarShowroom-App\Backend\src\CarShowroom.API\CarShowroom.Persistense\bin\Debug\net6.0\CarShowroom.Persistense.deps.json
+C:\MyRepos\CarShowroom-App\Backend\src\CarShowroom.API\CarShowroom.Persistense\bin\Debug\net6.0\CarShowroom.Persistense.dll
+C:\MyRepos\CarShowroom-App\Backend\src\CarShowroom.API\CarShowroom.Persistense\bin\Debug\net6.0\CarShowroom.Persistense.pdb
+C:\MyRepos\CarShowroom-App\Backend\src\CarShowroom.API\CarShowroom.Persistense\bin\Debug\net6.0\CarShowroom.Domain.dll
+C:\MyRepos\CarShowroom-App\Backend\src\CarShowroom.API\CarShowroom.Persistense\bin\Debug\net6.0\CarShowroom.Domain.pdb
+C:\MyRepos\CarShowroom-App\Backend\src\CarShowroom.API\CarShowroom.Persistense\obj\Debug\net6.0\CarShowroom.Persistense.csproj.AssemblyReference.cache
+C:\MyRepos\CarShowroom-App\Backend\src\CarShowroom.API\CarShowroom.Persistense\obj\Debug\net6.0\CarShowroom.Persistense.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyRepos\CarShowroom-App\Backend\src\CarShowroom.API\CarShowroom.Persistense\obj\Debug\net6.0\CarShowroom.Persistense.AssemblyInfoInputs.cache
+C:\MyRepos\CarShowroom-App\Backend\src\CarShowroom.API\CarShowroom.Persistense\obj\Debug\net6.0\CarShowroom.Persistense.AssemblyInfo.cs
+C:\MyRepos\CarShowroom-App\Backend\src\CarShowroom.API\CarShowroom.Persistense\obj\Debug\net6.0\CarShowroom.Persistense.csproj.CoreCompileInputs.cache
+C:\MyRepos\CarShowroom-App\Backend\src\CarShowroom.API\CarShowroom.Persistense\obj\Debug\net6.0\CarShowroom.Persistense.csproj.CopyComplete
+C:\MyRepos\CarShowroom-App\Backend\src\CarShowroom.API\CarShowroom.Persistense\obj\Debug\net6.0\CarShowroom.Persistense.dll
+C:\MyRepos\CarShowroom-App\Backend\src\CarShowroom.API\CarShowroom.Persistense\obj\Debug\net6.0\refint\CarShowroom.Persistense.dll
+C:\MyRepos\CarShowroom-App\Backend\src\CarShowroom.API\CarShowroom.Persistense\obj\Debug\net6.0\CarShowroom.Persistense.pdb
+C:\MyRepos\CarShowroom-App\Backend\src\CarShowroom.API\CarShowroom.Persistense\obj\Debug\net6.0\ref\CarShowroom.Persistense.dll

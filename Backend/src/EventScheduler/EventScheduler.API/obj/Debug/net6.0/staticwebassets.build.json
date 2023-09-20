@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "PLTK6ln6t/WrGzjegorATJBeQq2Je7EARQzgPY4j8tY=",
+  "Source": "EventScheduler.API",
+  "BasePath": "_content/EventScheduler.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

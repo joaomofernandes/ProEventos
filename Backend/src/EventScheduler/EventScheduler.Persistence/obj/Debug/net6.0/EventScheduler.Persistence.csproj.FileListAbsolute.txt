@@ -1,0 +1,15 @@
+C:\MyRepos\EventScheduler\Backend\src\EventScheduler\EventScheduler.Persistence\bin\Debug\net6.0\EventScheduler.Persistence.deps.json
+C:\MyRepos\EventScheduler\Backend\src\EventScheduler\EventScheduler.Persistence\bin\Debug\net6.0\EventScheduler.Persistence.dll
+C:\MyRepos\EventScheduler\Backend\src\EventScheduler\EventScheduler.Persistence\bin\Debug\net6.0\EventScheduler.Persistence.pdb
+C:\MyRepos\EventScheduler\Backend\src\EventScheduler\EventScheduler.Persistence\bin\Debug\net6.0\EventScheduler.Domain.dll
+C:\MyRepos\EventScheduler\Backend\src\EventScheduler\EventScheduler.Persistence\bin\Debug\net6.0\EventScheduler.Domain.pdb
+C:\MyRepos\EventScheduler\Backend\src\EventScheduler\EventScheduler.Persistence\obj\Debug\net6.0\EventScheduler.Persistence.csproj.AssemblyReference.cache
+C:\MyRepos\EventScheduler\Backend\src\EventScheduler\EventScheduler.Persistence\obj\Debug\net6.0\EventScheduler.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyRepos\EventScheduler\Backend\src\EventScheduler\EventScheduler.Persistence\obj\Debug\net6.0\EventScheduler.Persistence.AssemblyInfoInputs.cache
+C:\MyRepos\EventScheduler\Backend\src\EventScheduler\EventScheduler.Persistence\obj\Debug\net6.0\EventScheduler.Persistence.AssemblyInfo.cs
+C:\MyRepos\EventScheduler\Backend\src\EventScheduler\EventScheduler.Persistence\obj\Debug\net6.0\EventScheduler.Persistence.csproj.CoreCompileInputs.cache
+C:\MyRepos\EventScheduler\Backend\src\EventScheduler\EventScheduler.Persistence\obj\Debug\net6.0\EventScheduler.Persistence.csproj.CopyComplete
+C:\MyRepos\EventScheduler\Backend\src\EventScheduler\EventScheduler.Persistence\obj\Debug\net6.0\EventScheduler.Persistence.dll
+C:\MyRepos\EventScheduler\Backend\src\EventScheduler\EventScheduler.Persistence\obj\Debug\net6.0\refint\EventScheduler.Persistence.dll
+C:\MyRepos\EventScheduler\Backend\src\EventScheduler\EventScheduler.Persistence\obj\Debug\net6.0\EventScheduler.Persistence.pdb
+C:\MyRepos\EventScheduler\Backend\src\EventScheduler\EventScheduler.Persistence\obj\Debug\net6.0\ref\EventScheduler.Persistence.dll

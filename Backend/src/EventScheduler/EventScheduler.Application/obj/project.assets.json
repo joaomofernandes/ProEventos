@@ -1,0 +1,91 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "EventScheduler.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/EventScheduler.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EventScheduler.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EventScheduler.Domain/1.0.0": {
+      "type": "project",
+      "path": "../EventScheduler.Domain/EventScheduler.Domain.csproj",
+      "msbuildProject": "../EventScheduler.Domain/EventScheduler.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "EventScheduler.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\joaomiol\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\MyRepos\\EventScheduler\\Backend\\src\\EventScheduler\\EventScheduler.Application\\EventScheduler.Application.csproj",
+      "projectName": "EventScheduler.Application",
+      "projectPath": "C:\\MyRepos\\EventScheduler\\Backend\\src\\EventScheduler\\EventScheduler.Application\\EventScheduler.Application.csproj",
+      "packagesPath": "C:\\Users\\joaomiol\\.nuget\\packages\\",
+      "outputPath": "C:\\MyRepos\\EventScheduler\\Backend\\src\\EventScheduler\\EventScheduler.Application\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\joaomiol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\MyRepos\\EventScheduler\\Backend\\src\\EventScheduler\\EventScheduler.Domain\\EventScheduler.Domain.csproj": {
+              "projectPath": "C:\\MyRepos\\EventScheduler\\Backend\\src\\EventScheduler\\EventScheduler.Domain\\EventScheduler.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

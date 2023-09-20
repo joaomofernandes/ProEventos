@@ -1,0 +1,6 @@
+C:\MyRepos\CarShowroom-App\Backend\src\CarShowroom.API\CarShowroom.API\obj\Debug\net6.0\ProEvent.API.csproj.AssemblyReference.cache
+C:\MyRepos\CarShowroom-App\Backend\src\CarShowroom.API\CarShowroom.API\obj\Debug\net6.0\ProEvent.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyRepos\CarShowroom-App\Backend\src\CarShowroom.API\CarShowroom.API\obj\Debug\net6.0\ProEvent.API.AssemblyInfoInputs.cache
+C:\MyRepos\CarShowroom-App\Backend\src\CarShowroom.API\CarShowroom.API\obj\Debug\net6.0\ProEvent.API.AssemblyInfo.cs
+C:\MyRepos\CarShowroom-App\Backend\src\CarShowroom.API\CarShowroom.API\obj\Debug\net6.0\ProEvent.API.csproj.CoreCompileInputs.cache
+C:\MyRepos\CarShowroom-App\Backend\src\CarShowroom.API\CarShowroom.API\obj\Debug\net6.0\ProEvent.API.MvcApplicationPartsAssemblyInfo.cache

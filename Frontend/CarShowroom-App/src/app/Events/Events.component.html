@@ -1,0 +1,64 @@
+<h2>Event Scheduler</h2>
+<hr>
+
+<div class="form-inline d-inline">
+    <div class="d-flex justify-content-center">
+        <Strong>Filter Events:</Strong>
+        <input 
+        type="text" 
+        class="form-control mb-2 d-inline" 
+        placeholder="Search"
+        [(ngModel)]="filterList">
+    </div>
+</div>
+//<h3 *ngIf="!_showkeyword">Searching for: {{filterList}}</h3>
+<table class="table table-striped">
+    <thead class="table-primary">
+        <tr>
+            <th>
+                <a (click)="showImage()">
+                    {{showImg ? 'Hide Image' : 'Show Image'}}
+                </a>
+            </th>
+            <th>#</th>
+            <th>Theme</th>
+            <th>Place</th>
+            <th>Color</th>
+            <th>Date</th>
+            <th>People Quantity</th>
+            <th>Lot/th>            
+            <th>Options</th>
+        </tr>
+    </thead>
+    <tbody *ngIf="events && events.length">
+        <tr *ngFor="let car of filteredEvents">
+            <td>{{car.manufacturer}}</td>
+            <td>{{car.model}}</td>
+            <td>{{car.month_Year}}</td>
+            <td>{{car.color}}</td>
+            <td>{{car.type}}</td>
+            <td>{{car.fuel}}</td>
+            <td>{{car.kms}}</td>
+            <td>
+                <img [collapse]="!showImg"
+                [isAnimated]="true"
+                src="{{car.imageUrl}}"
+                [style.width.px]="75"
+                [style.margin.px]="2"
+                alt="">
+            </td>
+            <td>
+                <button type="button" class="btn btn-primary btn-sm" style="margin: 10px">Edit Details</button>
+                <button type="button" class="btn btn-danger btn-sm">Exclude Car</button>
+            </td>
+        </tr>
+    </tbody>
+    <tfoot *ngIf="!events && !events.length">
+        <td colspan="8" class="text-center">
+            <h4>No cars for sale right now!</h4>
+        </td>    
+    </tfoot>
+</table>
+
+
+

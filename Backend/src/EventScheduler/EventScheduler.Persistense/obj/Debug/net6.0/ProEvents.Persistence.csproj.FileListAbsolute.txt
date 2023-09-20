@@ -1,0 +1,5 @@
+C:\MyRepos\CarShowroom-App\Backend\src\CarShowroom.API\CarShowroom.Persistense\obj\Debug\net6.0\ProEvents.Persistence.csproj.AssemblyReference.cache
+C:\MyRepos\CarShowroom-App\Backend\src\CarShowroom.API\CarShowroom.Persistense\obj\Debug\net6.0\ProEvents.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyRepos\CarShowroom-App\Backend\src\CarShowroom.API\CarShowroom.Persistense\obj\Debug\net6.0\ProEvents.Persistence.AssemblyInfoInputs.cache
+C:\MyRepos\CarShowroom-App\Backend\src\CarShowroom.API\CarShowroom.Persistense\obj\Debug\net6.0\ProEvents.Persistence.AssemblyInfo.cs
+C:\MyRepos\CarShowroom-App\Backend\src\CarShowroom.API\CarShowroom.Persistense\obj\Debug\net6.0\ProEvents.Persistence.csproj.CoreCompileInputs.cache

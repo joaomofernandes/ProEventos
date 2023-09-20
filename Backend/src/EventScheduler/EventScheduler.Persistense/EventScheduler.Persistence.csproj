@@ -1,0 +1,21 @@
+﻿<Project>
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	  <MSBuildProjectExtensionsPath>$(MSBuildProjectDirectory)\_intermediate_\</MSBuildProjectExtensionsPath>
+  </PropertyGroup>
+
+	<Import Project="Sdk.props" Sdk="Microsoft.NET.Sdk" />
+	<Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EventScheduler.Domain\EventScheduler.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

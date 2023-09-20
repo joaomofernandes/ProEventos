@@ -11,13 +11,15 @@ import { NavComponent } from './nav/nav.component';
 import { CollapseModule } from 'ngx-bootstrap/collapse';
 import { CarsComponent } from './Cars/Cars.component';
 import { FormsModule } from '@angular/forms';
+import { EventsComponent } from './Events/Events.component';
 
 @NgModule({
-  declarations: [			
+  declarations: [				
     AppComponent,
     SpeakersComponent,
       NavComponent,
-      CarsComponent
+      CarsComponent,
+      EventsComponent
    ],
   imports: [
     BrowserModule,

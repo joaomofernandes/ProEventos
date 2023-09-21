@@ -6,12 +6,12 @@ namespace ProEventos.API.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class CarController : ControllerBase
+    public class EventController : ControllerBase
     {
         
         private readonly EventSchedulerContext _context;
         
-        public CarController(EventSchedulerContext context)
+        public EventController(EventSchedulerContext context)
         {
             _context = context;
         }

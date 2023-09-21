@@ -752,7 +752,8 @@
       },
       "EventScheduler.Application/1.0.0": {
         "dependencies": {
-          "EventScheduler.Domain": "1.0.0"
+          "EventScheduler.Domain": "1.0.0",
+          "EventScheduler.Persistence": "1.0.0"
         },
         "runtime": {
           "EventScheduler.Application.dll": {}

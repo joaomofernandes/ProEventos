@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\EventScheduler.Domain\EventScheduler.Domain.csproj" />
+    <ProjectReference Include="..\EventScheduler.Persistence\EventScheduler.Persistence.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,5 +1,5 @@
 using EventScheduler.Domain;
-using EventScheduler.Persistence;
+using EventScheduler.Persistence.Context;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ProEventos.API.Controllers

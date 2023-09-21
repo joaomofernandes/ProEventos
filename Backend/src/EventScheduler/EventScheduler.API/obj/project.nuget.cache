@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ArRU8KsrbK7y46a1QhrCMQqyc5M2gRubUb47+rm8FAWGOPTgGbZvk15b7HxbSZbHaqKVULpf652VU4Ha6PSj4Q==",
+  "dgSpecHash": "MsXL/xSfZDDPLZE3gvwZ2gkQYpRqPlfCLy/7Qzbei5rqoBGHc2r30ezI5kdEihcrVGQafXB22c6ImQ2B6PrbVQ==",
   "success": true,
   "projectFilePath": "C:\\MyRepos\\EventScheduler\\Backend\\src\\EventScheduler\\EventScheduler.API\\EventScheduler.API.csproj",
   "expectedPackageFiles": [

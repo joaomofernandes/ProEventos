@@ -121,6 +121,9 @@
             "projectReferences": {
               "C:\\MyRepos\\EventScheduler\\Backend\\src\\EventScheduler\\EventScheduler.Domain\\EventScheduler.Domain.csproj": {
                 "projectPath": "C:\\MyRepos\\EventScheduler\\Backend\\src\\EventScheduler\\EventScheduler.Domain\\EventScheduler.Domain.csproj"
+              },
+              "C:\\MyRepos\\EventScheduler\\Backend\\src\\EventScheduler\\EventScheduler.Persistence\\EventScheduler.Persistence.csproj": {
+                "projectPath": "C:\\MyRepos\\EventScheduler\\Backend\\src\\EventScheduler\\EventScheduler.Persistence\\EventScheduler.Persistence.csproj"
               }
             }
           }

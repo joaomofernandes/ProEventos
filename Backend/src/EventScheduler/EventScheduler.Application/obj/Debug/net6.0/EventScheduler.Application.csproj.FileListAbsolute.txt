@@ -30,3 +30,5 @@ C:\MyRepos\EventScheduler\Backend\src\EventScheduler\EventScheduler.Application\
 C:\MyRepos\EventScheduler\Backend\src\EventScheduler\EventScheduler.Application\obj\Debug\net6.0\refint\EventScheduler.Application.dll
 C:\MyRepos\EventScheduler\Backend\src\EventScheduler\EventScheduler.Application\obj\Debug\net6.0\EventScheduler.Application.pdb
 C:\MyRepos\EventScheduler\Backend\src\EventScheduler\EventScheduler.Application\obj\Debug\net6.0\ref\EventScheduler.Application.dll
+C:\MyRepos\EventScheduler\Backend\src\EventScheduler\EventScheduler.Application\bin\Debug\net6.0\EventScheduler.Persistence.dll
+C:\MyRepos\EventScheduler\Backend\src\EventScheduler\EventScheduler.Application\bin\Debug\net6.0\EventScheduler.Persistence.pdb

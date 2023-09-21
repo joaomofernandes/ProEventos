@@ -1,7 +1,7 @@
 ﻿using EventScheduler.Domain;
 using Microsoft.EntityFrameworkCore;
 
-namespace EventScheduler.Persistence
+namespace EventScheduler.Persistence.Context
 {
     public class EventSchedulerContext : DbContext
     {

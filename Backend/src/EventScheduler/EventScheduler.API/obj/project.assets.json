@@ -1247,7 +1247,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "EventScheduler.Domain": "1.0.0"
+          "EventScheduler.Domain": "1.0.0",
+          "EventScheduler.Persistence": "1.0.0"
         },
         "compile": {
           "bin/placeholder/EventScheduler.Application.dll": {}

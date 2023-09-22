@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EventScheduler.Application.Contracts
 {
-    internal interface IEventService
+    public interface IEventService
     {
         Task<Event> AddEvents(Event model);
         Task<Event> UpdateEvent(int eventId, Event model);

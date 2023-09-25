@@ -16,6 +16,16 @@ namespace EventScheduler.Persistence.Context
         {
             modelBuilder.Entity<SpeakerEvent>()
                 .HasKey(e => new { e.EventId, e.SpeakerId });
+
+            modelBuilder.Entity<Event>()
+                .HasMany(e => e.SocialNetworks)
+                .WithOne(sn => sn.Event)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<Speaker>()
+                .HasMany(s => s.SocialNetworks)
+                .WithOne(sn => sn.Speaker)
+                .OnDelete(DeleteBehavior.Cascade);
         }
     }
 }

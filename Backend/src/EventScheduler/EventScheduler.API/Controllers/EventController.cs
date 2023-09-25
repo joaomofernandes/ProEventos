@@ -51,7 +51,7 @@ namespace ProEventos.API.Controllers
             }
         }
 
-        [HttpGet("{theme}")]
+        [HttpGet("/GetByTheme/{theme}")]
         public async Task<IActionResult> GetEventsbyTheme(string theme)
         {
             try
@@ -104,7 +104,7 @@ namespace ProEventos.API.Controllers
             }
         }
 
-        [HttpPut("{id}")]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteEvent(int id)
         {
             try

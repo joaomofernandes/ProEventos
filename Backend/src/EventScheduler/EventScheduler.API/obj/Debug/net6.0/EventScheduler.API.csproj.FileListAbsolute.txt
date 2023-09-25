@@ -105,3 +105,7 @@ C:\MyRepos\EventScheduler\Backend\src\EventScheduler\EventScheduler.API\obj\Debu
 C:\MyRepos\EventScheduler\Backend\src\EventScheduler\EventScheduler.API\obj\Debug\net6.0\EventScheduler.API.pdb
 C:\MyRepos\EventScheduler\Backend\src\EventScheduler\EventScheduler.API\obj\Debug\net6.0\EventScheduler.API.genruntimeconfig.cache
 C:\MyRepos\EventScheduler\Backend\src\EventScheduler\EventScheduler.API\obj\Debug\net6.0\ref\EventScheduler.API.dll
+C:\MyRepos\EventScheduler\Backend\src\EventScheduler\EventScheduler.API\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\MyRepos\EventScheduler\Backend\src\EventScheduler\EventScheduler.API\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\MyRepos\EventScheduler\Backend\src\EventScheduler\EventScheduler.API\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\MyRepos\EventScheduler\Backend\src\EventScheduler\EventScheduler.API\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll

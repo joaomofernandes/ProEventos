@@ -11,11 +11,11 @@ using System.Threading.Tasks;
 
 namespace EventScheduler.Persistence.Repository
 {
-    internal class EventSchedulerPersistence : IEventSchedulerRepository
+    public class EventSchedulerRepository : IEventSchedulerRepository
     {
         private readonly EventSchedulerContext _context;
 
-        public EventSchedulerPersistence(EventSchedulerContext context)
+        public EventSchedulerRepository(EventSchedulerContext context)
         {
             _context = context;
         }

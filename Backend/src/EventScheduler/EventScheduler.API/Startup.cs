@@ -1,17 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using EventScheduler.Application;
+using EventScheduler.Application.Contracts;
 using EventScheduler.Persistence.Context;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
+using EventScheduler.Persistence.Interfaces;
+using EventScheduler.Persistence.Repository;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 
 namespace ProEventos.API
@@ -31,7 +23,13 @@ namespace ProEventos.API
             services.AddDbContext<EventSchedulerContext>(
                 context => context.UseSqlServer(Configuration.GetConnectionString("SqlServer"))
             );
-            services.AddControllers();
+            services.AddControllers()
+                .AddNewtonsoftJson(x => x.SerializerSettings.ReferenceLoopHandling =
+                    Newtonsoft.Json.ReferenceLoopHandling.Ignore
+                );
+            services.AddScoped<IEventService, EventService>();
+            services.AddScoped<IEventRepository, EventRepository>();
+            services.AddScoped<IEventSchedulerRepository, EventSchedulerRepository>();
             services.AddCors();
             services.AddSwaggerGen(c =>
             {

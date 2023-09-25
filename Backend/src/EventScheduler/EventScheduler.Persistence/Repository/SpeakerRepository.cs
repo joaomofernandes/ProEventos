@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace EventScheduler.Persistence.Repository
 {
-    internal class SpeakerRepository : ISpeakerRepository
+    public class SpeakerRepository : ISpeakerRepository
     {
         private readonly EventSchedulerContext _context;
 
@@ -31,7 +31,7 @@ namespace EventScheduler.Persistence.Repository
                     .Include(s => s.PalestrantesEventos)
                     .ThenInclude(pe => pe.Event);
             }
-            query = query.OrderBy(s => s.Id)
+            query = query.AsNoTracking().OrderBy(s => s.Id)
                 .Where(s => s.Name.ToLower()
                 .Contains(name.ToLower()));
 
@@ -49,7 +49,7 @@ namespace EventScheduler.Persistence.Repository
                     .Include(s => s.PalestrantesEventos)
                     .ThenInclude(pe => pe.Event);
             }
-            query = query.OrderBy(s => s.Id);
+            query = query.AsNoTracking().OrderBy(s => s.Id);
 
             return await query.ToArrayAsync();
         }
@@ -65,7 +65,7 @@ namespace EventScheduler.Persistence.Repository
                     .Include(s => s.PalestrantesEventos)
                     .ThenInclude(pe => pe.Event);
             }
-            query = query.OrderBy(e => e.Id)
+            query = query.AsNoTracking().OrderBy(e => e.Id)
                 .Where(s => s.Id == speakerId);
 
             return await query.FirstOrDefaultAsync();

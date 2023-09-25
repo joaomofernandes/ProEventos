@@ -14,8 +14,8 @@ namespace EventScheduler.Domain
         public string ImageURL { get; set; }
         public string Phone { get; set; }
         public string Email { get; set; }
-        public IEnumerable<Lot> Lotes { get; set; }
-        public IEnumerable<SocialNetwork> SocialNetworks { get; set; }
-        public IEnumerable<SpeakerEvent> PalestrantesEventos { get; set; }
+        public IEnumerable<Lot>? Lotes { get; set; }
+        public IEnumerable<SocialNetwork>? SocialNetworks { get; set; }
+        public IEnumerable<SpeakerEvent>? PalestrantesEventos { get; set; }
     }
 }

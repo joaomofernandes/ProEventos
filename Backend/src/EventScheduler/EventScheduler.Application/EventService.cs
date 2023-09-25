@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace EventScheduler.Application
 {
-    internal class EventService : IEventService
+    public class EventService : IEventService
     {
         private readonly IEventSchedulerRepository _eventSchedulerRepository;
         private readonly IEventRepository _eventRepository;

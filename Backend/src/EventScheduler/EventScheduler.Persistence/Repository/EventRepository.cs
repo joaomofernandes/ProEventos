@@ -24,13 +24,13 @@ namespace EventScheduler.Persistence.Repository
         public async Task<Event[]> GetAllEventsAsync(bool includeSpeakers = false)
         {
             IQueryable<Event> query = _context.Events
-                .Include(e => e.Lotes)
+                .Include(e => e.Lots)
                 .Include(e => e.SocialNetworks);
 
             if (includeSpeakers)
             {
                 query = query
-                    .Include(e => e.PalestrantesEventos)
+                    .Include(e => e.SpeakersEvents)
                     .ThenInclude(pe => pe.Speaker);
             }
             query = query.AsNoTracking().OrderBy(e => e.Id);
@@ -41,13 +41,13 @@ namespace EventScheduler.Persistence.Repository
         public async Task<Event[]> GetAllEventsByThemeAsync(string theme, bool includeSpeakers)
         {
             IQueryable<Event> query = _context.Events
-                .Include(e => e.Lotes)
+                .Include(e => e.Lots)
                 .Include(e => e.SocialNetworks);
 
             if (includeSpeakers)
             {
                 query = query
-                    .Include(e => e.PalestrantesEventos)
+                    .Include(e => e.SpeakersEvents)
                     .ThenInclude(pe => pe.Speaker);
             }
             query = query.AsNoTracking().OrderBy(e => e.Id)
@@ -60,13 +60,13 @@ namespace EventScheduler.Persistence.Repository
         public async Task<Event> GetEventByIdAsync(int eventId, bool includeSpeakers)
         {
             IQueryable<Event> query = _context.Events
-                .Include(e => e.Lotes)
+                .Include(e => e.Lots)
                 .Include(e => e.SocialNetworks);
 
             if (includeSpeakers)
             {
                 query = query
-                    .Include(e => e.PalestrantesEventos)
+                    .Include(e => e.SpeakersEvents)
                     .ThenInclude(pe => pe.Speaker);
             }
             query = query.AsNoTracking().OrderBy(e => e.Id)

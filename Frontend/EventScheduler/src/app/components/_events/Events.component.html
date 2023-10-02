@@ -1,4 +1,4 @@
-<h2>Event Scheduler</h2>
+<app-Title [title]="'Event'"></app-Title>
 <hr>
 
 <div class="form-inline d-inline">
@@ -16,8 +16,8 @@
     <thead class="table-primary">
         <tr>
             <th>
-                <button type="button" class="btn btn-outline-dark btn-sm" style = "font-weight: bold;">
-                <i (click)="showImage()" class="{{showImg ? 'fa fa-eye-slash' : 'fa fa-eye'}}">
+                <button type="button" class="btn btn-outline-dark btn-sm" style = "font-weight: bold;" (click)="showImage()">
+                <i class="{{showImg ? 'fa fa-eye-slash' : 'fa fa-eye'}}">
                 </i>
                 {{showImg ? 'Hide Image' : 'Show Image'}}
                 </button>

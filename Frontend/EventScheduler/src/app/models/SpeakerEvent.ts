@@ -1,8 +1,8 @@
 import { Speaker } from "./Speaker";
 
 export interface SpeakerEvent {
-    SpeakerId : number;
-    Speaker : Speaker;
-    EventId : number;
-    Event? : Event;
+    speakerId : number;
+    speaker : Speaker;
+    eventId : number;
+    event? : Event;
 }

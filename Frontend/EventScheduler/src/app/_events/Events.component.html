@@ -16,14 +16,14 @@
     <thead class="table-primary">
         <tr>
             <th>
-                <a (click)="showImage()">
-                    {{showImg ? 'Hide Image' : 'Show Image'}}
-                </a>
+                <button type="button" class="btn btn-outline-dark btn-sm" style = "font-weight: bold;">
+                <i (click)="showImage()" class="{{showImg ? 'fa fa-eye-slash' : 'fa fa-eye'}}">
+                </i>
+                {{showImg ? 'Hide Image' : 'Show Image'}}
+                </button>
             </th>
-            <th>#</th>
             <th>Theme</th>
             <th>Place</th>
-            <th>Color</th>
             <th>Date</th>
             <th>People Quantity</th>
             <th>Lot</th>            
@@ -32,24 +32,26 @@
     </thead>
     <tbody *ngIf="events && events.length">
         <tr *ngFor="let event of filteredEvents">
-            <td>{{event.manufacturer}}</td>
-            <td>{{event.model}}</td>
-            <td>{{event.month_Year}}</td>
-            <td>{{event.color}}</td>
-            <td>{{event.type}}</td>
-            <td>{{event.fuel}}</td>
-            <td>{{event.kms}}</td>
             <td>
                 <img [collapse]="!showImg"
                 [isAnimated]="true"
-                src="{{car.imageUrl}}"
+                src="{{event.imageURL}}"
                 [style.width.px]="75"
                 [style.margin.px]="2"
                 alt="">
             </td>
+            <td>{{event.theme}}</td>
+            <td>{{event.place}}</td>
+            <td>{{event.eventDate | DateTimeFormat}}</td>
+            <td>{{event.peopleQuantity}}</td>
+            <td>{{event.lots[0].name}}</td>           
             <td>
-                <button type="button" class="btn btn-primary btn-sm" style="margin: 10px">Edit Details</button>
-                <button type="button" class="btn btn-danger btn-sm">Exclude Car</button>
+                <button type="button" class="btn btn-primary btn-sm" style="margin: 10px" tooltip="Edit">
+                     <i class = "fa fa-edit"></i>
+                </button>
+                <button type="button" class="btn btn-danger btn-sm" tooltip="Delete" (click)="openModal(template)">
+                     <i class = "fa fa-trash"></i>
+                </button>  
             </td>
         </tr>
     </tbody>
@@ -59,6 +61,14 @@
         </td>    
     </tfoot>
 </table>
+
+<ng-template #template>
+    <div class="modal-body text-center">
+      <p>Do you want to confirm?</p>
+      <button type="button" class="btn btn-default" (click)="confirm()" >Yes</button>
+      <button type="button" class="btn btn-primary" (click)="decline()" >No</button>
+    </div>
+  </ng-template>
 
 
 

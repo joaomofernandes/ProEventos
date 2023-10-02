@@ -1,19 +1,35 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">CarShowroom</a>
+    <a class="navbar-brand" href="#">Event Scheduler</a>
     <button class="navbar-toggler" (click)="isCollapsed = !isCollapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" [collapse]="isCollapsed" [isAnimated]="true" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Vehicles for sale</a>
+          <a class="nav-link active" aria-current="page" href="#">All Events</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">New Entries</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Contacts</a>
+        </li>
+        <li class="nav-item dropdown" dropdown>
+          <a dropdownToggle class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Menu
+          </a>
+          <div *dropdownMenu class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="https://www.linkedin.com/in/joao-mofernandes">
+              About Me
+              <i class="fa-brands fa-linkedin fa-sm"></i>
+            </a>
+            <div role="separator" class="divider"></div>
+            <a class="dropdown-item" href="#">
+              Sair
+            </a>
+          </div>
         </li>
       </ul>
     </div>
